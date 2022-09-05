@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="al">
+        <attr name="HelloBackgroundColor" format="color"/>
+        <attr name="LanguageBackgroundColor" format="color"/>
+        <attr name="ThemeBackgroundColor" format="color"/>
+        <attr name="Text_Color_Hello" format="color"/>
+        <attr name="Text_Color_Languagues" format="color"/>
+        <attr name="Text_Color_Themes" format="color"/>
+        <attr name="Button_Color" format="color"/>
+        <attr name="Button_backgroundTint" format="color"/>
+
+    </declare-styleable>
+
+
+</resources>

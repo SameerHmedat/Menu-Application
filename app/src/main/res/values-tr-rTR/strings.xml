@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">menü Uygulama</string>
+    <string name="Open">açmak</string>
+    <string name="Close">Kapat</string>
+    <string name="ho_geldino">Hoş geldin</string>
+    <string name="setting">Ayarlar</string>
+    <string name="language">Dil</string>
+    <string name="theme">Görünüş</string>
+    <string name="dark">karanlık</string>
+    <string name="light">Işık</string>
+    <string name="arabic">Arapça</string>
+    <string name="english">İngilizce</string>
+    <string name="Turkish">Türkçe</string>
+    <string name="home_page">ana sayfa</string>
+    <string name="end">son</string>
+    <string name="default_Mode">varsayılan</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Menu Application</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="ho_geldino">Hello Dear </string>
+    <string name="setting">Settings</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="Turkish">Turkish</string>
+    <string name="home_page">Home Page</string>
+    <string name="end">End</string>
+    <string name="default_Mode">Default</string>
+
+</resources>

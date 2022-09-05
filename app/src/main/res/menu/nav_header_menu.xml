@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:title="@string/setting">
+
+        <menu>
+            <item
+                android:id="@+id/mihome"
+                android:checked="false"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="@string/home_page"/>
+
+            <item
+            android:id="@+id/miLang"
+            android:checked="false"
+            android:icon="@drawable/ic_baseline_language_24"
+            android:title="@string/language"/>
+
+            <item
+                android:id="@+id/miTheme"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/theme"/>
+
+            <item
+                android:id="@+id/miFinish"
+                android:icon="@drawable/ic_baseline_close_24"
+                android:title="@string/end"/>
+
+        </menu>
+
+
+    </item>
+
+
+
+
+
+
+
+</menu>

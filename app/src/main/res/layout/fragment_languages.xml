@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="?attr/LanguageBackgroundColor"
+    >
+    <Button
+        android:id="@+id/btnArabic"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="?attr/Text_Color_Languagues"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:width="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="@string/arabic"
+        style="?android:attr/buttonBarButtonStyle" />
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:textColor="?attr/Text_Color_Languagues"
+        android:backgroundTint="@color/purple_200"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        style="?android:attr/buttonBarButtonStyle" />
+    <Button
+        android:id="@+id/btnTurkish"
+        android:textColor="?attr/Text_Color_Languagues"
+        android:backgroundTint="@color/maroon"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Turkish"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+
+</LinearLayout>

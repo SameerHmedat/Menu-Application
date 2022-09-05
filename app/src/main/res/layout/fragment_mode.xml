@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="?attr/ThemeBackgroundColor"
+    >
+
+    <Button
+        android:id="@+id/btnDefault"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/teal_700"
+        android:layout_width="0dp"
+        android:textColor="?attr/Text_Color_Themes"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="@string/default_Mode"/>
+
+
+
+    <Button
+        android:id="@+id/btnDark"
+        android:backgroundTint="@color/purple"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="?attr/Text_Color_Themes"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:text="@string/dark"/>
+
+    <Button
+        android:id="@+id/btnLight"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/lime"
+        android:layout_width="0dp"
+        android:textColor="?attr/Text_Color_Themes"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="@string/light"/>
+
+
+</LinearLayout>

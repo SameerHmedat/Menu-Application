@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"قائمه "</string>
+    <string name="Open">" فتح"</string>
+    <string name="Close">اغلاق</string>
+    <string name="ho_geldino">مرحباً عزيزي</string>
+    <string name="setting">الاعدادات</string>
+    <string name="language">اللغه</string>
+    <string name="theme">المظهر</string>
+    <string name="dark">داكن</string>
+    <string name="light">فاتح</string>
+    <string name="arabic">عربي</string>
+    <string name="english">انجليزي</string>
+    <string name="Turkish">تركي</string>
+    <string name="home_page">الصفحه الرئيسيه</string>
+    <string name="end">انهاء</string>
+    <string name="default_Mode">اساسي</string>
+</resources>
