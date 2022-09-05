@@ -6,10 +6,12 @@
         <attr name="LanguageBackgroundColor" format="color"/>
         <attr name="ThemeBackgroundColor" format="color"/>
         <attr name="Text_Color_Hello" format="color"/>
-        <attr name="Text_Color_Languagues" format="color"/>
+        <attr name="Text_Color_Languages" format="color"/>
         <attr name="Text_Color_Themes" format="color"/>
         <attr name="Button_Color" format="color"/>
         <attr name="Button_backgroundTint" format="color"/>
+        <attr name="Text_Color_prefer_language" format="color"/>
+        <attr name="Text_Color_prefer_theme" format="color"/>
 
     </declare-styleable>
 

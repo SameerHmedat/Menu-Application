@@ -1,45 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:gravity="center"
-    android:background="?attr/LanguageBackgroundColor"
-    >
+    android:background="?attr/LanguageBackgroundColor">
+    <TextView
+        android:id="@+id/txtPreferLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="@string/what_do_you_prefer_language"
+        android:textStyle="bold|italic"
+        android:textColor="?attr/Text_Color_prefer_language"
+        android:textSize="28sp"
+        />
     <Button
         android:id="@+id/btnArabic"
-        android:backgroundTint="@color/teal_200"
-        android:textColor="?attr/Text_Color_Languagues"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:width="@android:dimen/app_icon_size"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:text="@string/arabic"
-        style="?android:attr/buttonBarButtonStyle" />
+        android:backgroundTint="@color/NavajoWhite"
+        android:textColor="?attr/Text_Color_Languages"
+        android:layout_height="70dp"
+        android:layout_width="350dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPreferLang"
+        android:text="@string/arabic" />
 
     <Button
         android:id="@+id/btnEnglish"
-        android:textColor="?attr/Text_Color_Languagues"
-        android:backgroundTint="@color/purple_200"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:textSize="16dp"
-        android:layout_height="wrap_content"
-        android:text="@string/english"
-        style="?android:attr/buttonBarButtonStyle" />
+        android:textColor="?attr/Text_Color_Languages"
+        android:backgroundTint="@color/LightPink"
+        android:layout_height="70dp"
+        android:layout_width="350dp"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnArabic"
+        android:text="@string/english" />
     <Button
         android:id="@+id/btnTurkish"
-        android:textColor="?attr/Text_Color_Languagues"
-        android:backgroundTint="@color/maroon"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:textSize="16dp"
-        android:layout_height="wrap_content"
+        android:textColor="?attr/Text_Color_Languages"
+        android:backgroundTint="@color/LightSalmon"
+        android:layout_height="70dp"
+        android:layout_width="350dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEnglish"
         android:text="@string/Turkish"
-        style="?android:attr/buttonBarButtonStyle" />
+         />
 
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

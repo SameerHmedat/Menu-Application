@@ -4,6 +4,8 @@
     <string name="Open">" فتح"</string>
     <string name="Close">اغلاق</string>
     <string name="ho_geldino">مرحباً عزيزي</string>
+    <string name="Welcome_home_screen">اهلاً بك في الشاشه الرئيسيه</string>
+    <string name="changeـapplication"> يمكنك تغيير إعدادات التطبيق بالذهاب إلى القائمة ، والتي ستسمح لك بتغيير اللغة والمظهر.</string>
     <string name="setting">الاعدادات</string>
     <string name="language">اللغه</string>
     <string name="theme">المظهر</string>
@@ -15,4 +17,8 @@
     <string name="home_page">الصفحه الرئيسيه</string>
     <string name="end">انهاء</string>
     <string name="default_Mode">اساسي</string>
+    <string name="what_do_you_prefer_mode">ماذا تفضل المظهر؟ </string>
+    <string name="what_do_you_prefer_language">ماذا تفضل اللغه؟ </string>
+
+
 </resources>

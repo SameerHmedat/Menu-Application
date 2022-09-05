@@ -3,6 +3,8 @@
     <string name="Open">Open</string>
     <string name="Close">Close</string>
     <string name="ho_geldino">Hello Dear </string>
+    <string name="Welcome_home_screen">Welcome to the home screen</string>
+    <string name="changeـapplication"> You can change the application settings by going to the menu, which will allow you to change the language and mode.</string>
     <string name="setting">Settings</string>
     <string name="language">Language</string>
     <string name="theme">Theme</string>
@@ -14,5 +16,7 @@
     <string name="home_page">Home Page</string>
     <string name="end">End</string>
     <string name="default_Mode">Default</string>
+    <string name="what_do_you_prefer_mode">What do you prefer Mode?</string>
+    <string name="what_do_you_prefer_language">What do you prefer Language?</string>
 
 </resources>

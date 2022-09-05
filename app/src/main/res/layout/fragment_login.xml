@@ -5,24 +5,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/m5"
     android:forceDarkAllowed="false"
     tools:context=".fragment.LoginFragment">
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:src="@drawable/img_1"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:scaleType="fitXY"
 
+    />
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/ho_geldino"
+        android:text="@string/Welcome_home_screen"
         android:textAlignment="center"
-        android:textColor="@color/teal_700"
-        android:textSize="80sp"
+        android:textColor="@color/flower"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
         android:textStyle="bold|italic|normal"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/img"
+        />
+    <TextView
+        android:id="@+id/txtChangeSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/changeـapplication"
+        android:textAlignment="center"
+        android:textColor="@color/flower_num2"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold|italic|normal"
+        app:layout_constraintStart_toStartOf="@id/txtWelcome"
+        app:layout_constraintEnd_toEndOf="@id/txtWelcome"
+        app:layout_constraintTop_toBottomOf="@id/txtWelcome"
+        />
+
+
 
 
 

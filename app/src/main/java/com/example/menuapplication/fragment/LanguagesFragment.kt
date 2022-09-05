@@ -1,6 +1,5 @@
 package com.example.menuapplication.fragment
 
-import android.content.Context
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,13 +10,9 @@ import com.example.menuapplication.R
 import kotlinx.android.synthetic.main.fragment_languages.*
 import java.util.*
 
-public var LAST_UPDATE:String="en"
+ var LAST_UPDATE:String="en"
 
 class LanguagesFragment : Fragment() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

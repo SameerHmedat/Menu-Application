@@ -1,49 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:gravity="center"
-    android:background="?attr/ThemeBackgroundColor"
-    >
-
-    <Button
-        android:id="@+id/btnDefault"
-        android:textAllCaps="false"
-        android:backgroundTint="@color/teal_700"
-        android:layout_width="0dp"
-        android:textColor="?attr/Text_Color_Themes"
-        android:layout_weight="1"
+    android:background="?attr/ThemeBackgroundColor">
+    <TextView
+        android:id="@+id/txtPreferMode"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="17dp"
-        android:text="@string/default_Mode"/>
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="@string/what_do_you_prefer_mode"
+        android:textStyle="bold|italic"
+        android:textColor="?attr/Text_Color_prefer_theme"
+        android:textSize="32sp"
+        />
 
     <Button
         android:id="@+id/btnDark"
-        android:backgroundTint="@color/purple"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+        android:backgroundTint="@color/Pink"
+        android:layout_height="70dp"
+        android:layout_width="350dp"
         android:textColor="?attr/Text_Color_Themes"
-        android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:textSize="17dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPreferMode"
         android:text="@string/dark"/>
 
     <Button
         android:id="@+id/btnLight"
         android:textAllCaps="false"
-        android:backgroundTint="@color/lime"
-        android:layout_width="0dp"
+        android:backgroundTint="@color/HotPink"
         android:textColor="?attr/Text_Color_Themes"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:textSize="17dp"
+        android:layout_height="70dp"
+        android:layout_width="350dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnDark"
         android:text="@string/light"/>
 
+    <Button
+        android:id="@+id/btnDefault"
+        android:layout_height="70dp"
+        android:layout_width="350dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/LightSalmon"
+        android:textColor="?attr/Text_Color_Themes"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLight"
+        android:text="@string/default_Mode"/>
 
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

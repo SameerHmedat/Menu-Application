@@ -15,11 +15,16 @@
             tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="Text_Color_Themes">@color/blue</item>
-        <item name="Text_Color_Languagues">@color/blue</item>
+        <item name="Text_Color_Languages">@color/black</item>
         <item name="HelloBackgroundColor">@color/black</item>
         <item name="Text_Color_Hello">@color/white</item>
         <item name="LanguageBackgroundColor">@color/black</item>
         <item name="ThemeBackgroundColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="Text_Color_prefer_language">@color/gray</item>
+        <item name="Text_Color_prefer_theme">@color/AntiqueWhite</item>
+
+
 
 
 

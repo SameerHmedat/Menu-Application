@@ -5,6 +5,8 @@
     <string name="Close">Kapat</string>
     <string name="ho_geldino">Hoş geldin</string>
     <string name="setting">Ayarlar</string>
+    <string name="Welcome_home_screen">Ana ekrana hoş geldiniz</string>
+    <string name="changeـapplication">Dil ve modu değiştirmenize izin verecek olan menüye giderek uygulama ayarlarını değiştirebilirsiniz.</string>
     <string name="language">Dil</string>
     <string name="theme">Görünüş</string>
     <string name="dark">karanlık</string>
@@ -15,4 +17,8 @@
     <string name="home_page">ana sayfa</string>
     <string name="end">son</string>
     <string name="default_Mode">varsayılan</string>
+    <string name="what_do_you_prefer_mode">Modu ne tercih edersin?</string>
+    <string name="what_do_you_prefer_language">hangi dili tercih edersin?</string>
+
+
 </resources>
